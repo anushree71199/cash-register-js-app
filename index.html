@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="styles.css" />
+      <link rel="icon" href="icon.png" type="image/png" sizes="16x16" />
+    <title>Cash Register Application</title>
+  </head>
+  <body>
+    <header class="header">
+    <div class="nav">
+    <h1 class="header-heading">Cash Register App</h1>
+    <button class="toggle-mode">☀️</button>
+    </div>
+    </header>
+    <main class="main">
+    <div class="container">
+    <form class="user-input">
+    <h2 class="user-heading">Enter Bill amount and Cash to be paid</h2>
+    <div class="bill-input">
+    <label for="bill">Bill Amount is:
+    </label>
+    <input
+    type="number" min="0" required id="bill" class="bill-amount"/>
+    </div>
+    <div class="cash-input">
+    <label for="cash">Cash to be Paid 
+    </label>
+    <input
+    type="number" min="0" required id="cash" class="cash-amount"/>
+    </div>
+    <button type="submit" class="btn">Check Currency
+    </button>
+    </form>
+    <div class="result-display">
+    <h2 class="error"></h2>
+    <ul class="note-list"></ul>
+    </div>
+    </div>
+    </main>
+    <footer class="footer">
+    <div class="footer-list">
+    <ul class="list">
+    <li class="list-item">
+    <a class="list-link" href="https://twitter.com/anu_71199">Twitter</a>
+    </li>
+    <li class="list-item">
+    <a class="list-link"href="https://www.linkedin.com/in/anushree-chatterjee-95990316a/">LinkedIn</a>
+    </li>
+    <li class="list-item">
+    <a class="list-link"href="https://github.com/anushree71199">Github</a>
+    </li>
+    <li class="list-item">
+    <a class="list-link"href="https://www.instagram.com/anu71199.svg/">Instagram</a>
+    </li>
+    <li class="list-item">
+    <a class="list-link"href="https://anushree71199.github.io/anuPortfolio.github.io/">Portfolio</a>
+    </li>
+    </ul>
+    </div>
+    <small>&copy created by Anushree Chatterjee</small>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
